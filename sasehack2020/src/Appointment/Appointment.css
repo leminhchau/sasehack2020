@@ -1,0 +1,55 @@
+
+*{
+    justify-content: center;
+}
+  body {
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Helvetica Neue",
+    "Helvetica",
+    "Arial",
+    "sans-serif";
+  font-size: 14px;
+    text-align: center;
+}
+.container {
+    min-height: 3em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+  -webkit-appearance: none;
+  padding: .5rem 1rem;
+  border: 1px solid #DCE0E0;
+  color: #565A5C;
+  font-size: 16px;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Helvetica Neue",
+    "Helvetica",
+    "Arial",
+    "sans-serif";
+  text-align: center;
+  font-weight: 300;
+}
+
+button {
+
+    outline: none;
+    color: 15px solid rgb(106, 104, 110);
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: none;
+    transition: all 0.2s ease-in-out;
+    margin-top: 3em ;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background: rgb(203, 166, 224);
+    color: white;
+  }
+
+  
