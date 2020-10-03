@@ -8,19 +8,19 @@ import Checkbox from '@material-ui/core/Checkbox';
 export default function AddressForm() {
   return (
     <React.Fragment>
-      <Typography variant="h7" gutterBottom>
+      <Typography variant="h6" gutterBottom>
+        Shipping address
+      </Typography><Typography variant="h7" gutterBottom>
       We'll send you an at-home kit to collect your nasal swab sample and 
       ship it back to our lab. Our lab will test your sample for SARS-CoV-2, 
       the virus that causes coronavirus disease (also called COVID-19).
       </Typography>
       <Typography variant="h7" gutterBottom>
-      The average time to deliver results is currently 24-48 hrs 
-      from when your sample is received at the lab. Please note this test does 
+      The average time to deliver results is 24-48 hrs 
+      from when your sample is received at the lab. You will
+      be able to access your results online after. Please note this test does 
       not detect antibodies or immunity; it is designed to determine active 
       infection with the virus that causes COVID-19.
-      </Typography>
-      <Typography variant="h6" gutterBottom>
-        Shipping address
       </Typography>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6}>

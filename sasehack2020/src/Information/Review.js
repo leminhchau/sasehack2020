@@ -38,6 +38,12 @@ export default function Review() {
       <Typography variant="h6" gutterBottom>
         Order Summary
       </Typography>
+      <Typography variant="h7" gutterBottom>
+      It is important to note that the virus may not be detected by the 
+      test in early stages of infection. If you have reason to believe 
+      you have been exposed, it is important to follow up with a healthcare 
+      provider for further evaluation or to get re-tested.
+      </Typography>
       <List disablePadding>
         {products.map((product) => (
           <ListItem className={classes.listItem} key={product.name}>

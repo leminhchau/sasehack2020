@@ -11,6 +11,11 @@ export default function PaymentForm() {
       <Typography variant="h6" gutterBottom>
         Payment Method
       </Typography>
+      <Typography variant="h7" gutterBottom>
+       Check with your insurance company if federal funds 
+       may be utilized to cover the cost of this test on 
+       your behalf if you're uninsured or pay with a credit card.
+      </Typography>
       <Grid container spacing={3}>
         <Grid item xs={12} md={6}>
           <TextField required id="cardName" label="Name on card" fullWidth autoComplete="cc-name" />
