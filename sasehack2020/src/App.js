@@ -9,6 +9,7 @@ import Appointment from "./components/Appointment/Appointment";
 import Doctor from "./components/Doctor/Doctor";
 import Information from "./components/Information/Information";
 import Chatbot from "./components/ChatBot/ChatBot";
+import Login from "./components/Login/Login";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Router>
         <Sidebar />
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Login} />
           <Route path="/home" component={Home} />
           <Route path="/record" component={Record} />
           <Route path="/appointment" component={Appointment} />

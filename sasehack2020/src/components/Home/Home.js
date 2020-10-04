@@ -22,6 +22,9 @@ class Home extends Component {
 
     return (
       <div className={styles.container}>
+        <h1>Welcome to Patient Portal</h1>
+        <h3>This is the current update of Covid 19 pandemic</h3>
+        <h3>Please stay safe</h3>
         <Cards data={data} />
       </div>
     );
@@ -29,11 +32,3 @@ class Home extends Component {
 }
 
 export default Home;
-
-// import React from "react";
-
-// function Home() {
-//   return <div>This is HOMEPAGE</div>;
-// }
-
-// export default Home;

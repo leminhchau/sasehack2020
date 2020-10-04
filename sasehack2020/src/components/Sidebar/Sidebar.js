@@ -21,6 +21,7 @@ import PersonIcon from "@material-ui/icons/Person";
 import DateRangeIcon from "@material-ui/icons/DateRange";
 import LocalHospitalIcon from "@material-ui/icons/LocalHospital";
 import InfoIcon from "@material-ui/icons/Info";
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import { Link, withRouter } from "react-router-dom";
 const drawerWidth = 240;
 
@@ -98,7 +99,7 @@ const Sidebar = (props) => {
     {
       text: "Home",
       icon: <HomeIcon />,
-      onClick: () => history.push("/"),
+      onClick: () => history.push("/home"),
     },
     {
       text: "Record",
@@ -116,8 +117,8 @@ const Sidebar = (props) => {
       onClick: () => history.push("/doctor"),
     },
     {
-      text: "Info",
-      icon: <InfoIcon />,
+      text: "Buy a test kit",
+      icon: <ShoppingCartIcon />,
       onClick: () => history.push("/information"),
     },
   ];
