@@ -13,8 +13,8 @@ import Chatbot from "./components/ChatBot/ChatBot";
 function App() {
   return (
     <div className="App">
-      <Sidebar />
       <Router>
+        <Sidebar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/home" component={Home} />
@@ -46,7 +46,9 @@ function App() {
           /> */}
         </Switch>
       </Router>
-      <Chatbot />
+      <div className="chatbot">
+        <Chatbot />
+      </div>
     </div>
   );
 }
